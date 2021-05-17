@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+
+.carta { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+}
+
+h1, p{
+    font-family: 'Concert One', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+width: 100px;
+height: 100px;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+.boton{
+    background-color: rgb(126, 0, 0);
+    width: 30px;
+    color: white;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin: 5px;
+    border: none;
+}
+
+.boton:hover{
+    opacity: 0.65;
+}
+

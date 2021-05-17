@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+
+.jumbotron{
+  background-image: url(asd.jpg); 
+  background-size: cover; 
+  border-bottom: 2px double black;
+  text-align: center;
+
+}
+
+.vinc{
+  margin: 10px;
+  font-size: 35px;
+  font-family: 'Concert One', cursive;
+  text-decoration: none !important;
+  color: black;
+}
+
+.vinc:hover{
+  text-decoration: none !important;
+}
+
+.linkss{
+  opacity: 0.4s;
+}
